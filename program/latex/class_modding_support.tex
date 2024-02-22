@@ -1,0 +1,50 @@
+\hypertarget{class_modding_support}{}\doxysection{Класс Modding\+Support}
+\label{class_modding_support}\index{ModdingSupport@{ModdingSupport}}
+
+
+Класс \mbox{\hyperlink{class_modding_support}{Modding\+Support}} позволяет сообществу создавать и распространять собственные модификации к игре.  
+
+
+
+
+{\ttfamily \#include $<$modding\+\_\+support.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_modding_support_a8b1260ab6878f5de6b3acb059eda23c6}\label{class_modding_support_a8b1260ab6878f5de6b3acb059eda23c6}} 
+void \mbox{\hyperlink{class_modding_support_a8b1260ab6878f5de6b3acb059eda23c6}{load\+Mods}} ()
+\begin{DoxyCompactList}\small\item\em Загружает модификации. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_modding_support_add8a0cd71afd73a1c4727b3f44d9849b}{toggle\+Mod}} (const std\+::string \&mod\+Id, bool enable)
+\begin{DoxyCompactList}\small\item\em Включает или отключает модификацию. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_modding_support_a55cb6cd432b6f5aa64fac9ac3846a8f2}\label{class_modding_support_a55cb6cd432b6f5aa64fac9ac3846a8f2}} 
+void \mbox{\hyperlink{class_modding_support_a55cb6cd432b6f5aa64fac9ac3846a8f2}{provide\+Modding\+API}} ()
+\begin{DoxyCompactList}\small\item\em Предоставляет интерфейс для модификаций для взаимодействия с игровым движком. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_modding_support}{Modding\+Support}} позволяет сообществу создавать и распространять собственные модификации к игре. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_modding_support_add8a0cd71afd73a1c4727b3f44d9849b}\label{class_modding_support_add8a0cd71afd73a1c4727b3f44d9849b}} 
+\index{ModdingSupport@{ModdingSupport}!toggleMod@{toggleMod}}
+\index{toggleMod@{toggleMod}!ModdingSupport@{ModdingSupport}}
+\doxysubsubsection{\texorpdfstring{toggleMod()}{toggleMod()}}
+{\footnotesize\ttfamily void Modding\+Support\+::toggle\+Mod (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{mod\+Id,  }\item[{bool}]{enable }\end{DoxyParamCaption})}
+
+
+
+Включает или отключает модификацию. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em mod\+Id} & Идентификатор модификации. \\
+\hline
+{\em enable} & Флаг, указывающий, следует ли включить модификацию. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+modding\+\_\+support.\+h\end{DoxyCompactItemize}

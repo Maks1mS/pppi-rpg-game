@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PPPI RPG Game: Исходный файл item_inventory.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PPPI RPG Game
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">item_inventory.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="class_item_inventory.html">    4</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_item_inventory.html">ItemInventory</a> {</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_item_inventory.html#a33e49c32a8761ae707da8b7b1875acce">   10</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_item_inventory.html#a33e49c32a8761ae707da8b7b1875acce">addItem</a>(<span class="comment">/* параметры предмета */</span>);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_item_inventory.html#a401e0ab07c2abe546edacda837a44c2b">   16</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_item_inventory.html#a401e0ab07c2abe546edacda837a44c2b">removeItem</a>(<span class="keywordtype">int</span> itemId);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_item_inventory.html#a2c19e0eb0e6bd5b661540c0dd75efc91">   22</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_item_inventory.html#a2c19e0eb0e6bd5b661540c0dd75efc91">useItem</a>(<span class="keywordtype">int</span> itemId);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;};</div>
+<div class="ttc" id="aclass_item_inventory_html"><div class="ttname"><a href="class_item_inventory.html">ItemInventory</a></div><div class="ttdoc">Класс ItemInventory управляет предметами, доступными для игрока.</div><div class="ttdef"><b>Definition:</b> item_inventory.h:4</div></div>
+<div class="ttc" id="aclass_item_inventory_html_a2c19e0eb0e6bd5b661540c0dd75efc91"><div class="ttname"><a href="class_item_inventory.html#a2c19e0eb0e6bd5b661540c0dd75efc91">ItemInventory::useItem</a></div><div class="ttdeci">void useItem(int itemId)</div><div class="ttdoc">Использует предмет.</div></div>
+<div class="ttc" id="aclass_item_inventory_html_a33e49c32a8761ae707da8b7b1875acce"><div class="ttname"><a href="class_item_inventory.html#a33e49c32a8761ae707da8b7b1875acce">ItemInventory::addItem</a></div><div class="ttdeci">void addItem()</div><div class="ttdoc">Добавляет предмет в инвентарь.</div></div>
+<div class="ttc" id="aclass_item_inventory_html_a401e0ab07c2abe546edacda837a44c2b"><div class="ttname"><a href="class_item_inventory.html#a401e0ab07c2abe546edacda837a44c2b">ItemInventory::removeItem</a></div><div class="ttdeci">void removeItem(int itemId)</div><div class="ttdoc">Удаляет предмет из инвентаря.</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

@@ -1,0 +1,130 @@
+\hypertarget{class_save_load_system}{}\doxysection{Класс Save\+Load\+System}
+\label{class_save_load_system}\index{SaveLoadSystem@{SaveLoadSystem}}
+
+
+Класс \mbox{\hyperlink{class_save_load_system}{Save\+Load\+System}} позволяет игроку сохранять и загружать свой прогресс.  
+
+
+
+
+{\ttfamily \#include $<$save\+\_\+load\+\_\+system.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_save_load_system_a31fcc0da725b07fc0f37f0cb3089e64f}{save\+Game}} (const std\+::string \&save\+File\+Name,)
+\begin{DoxyCompactList}\small\item\em Сохраняет текущее состояние игры в файл. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_save_load_system_a958db47854276a20dd05f4667efedd52}{load\+Game}} (const std\+::string \&save\+File\+Name)
+\begin{DoxyCompactList}\small\item\em Загружает состояние игры из файла. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{class_save_load_system_a2c98f49b73df9103038259dbf2e2d92f}{list\+Save\+Files}} ()
+\begin{DoxyCompactList}\small\item\em Перечисляет доступные файлы сохранений. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_save_load_system_af4ca3c59e3a54cbb83f3e86e37b52678}{delete\+Save\+File}} (const std\+::string \&save\+File\+Name)
+\begin{DoxyCompactList}\small\item\em Удаляет файл сохранения. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_save_load_system_aee6cfe1ef668a4f35c4ea45992648d2a}{serialize\+Game\+State}} ()
+\begin{DoxyCompactList}\small\item\em Сериализует данные состояния игры для сохранения. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_save_load_system_a03a7ad36d7299b930caffe09b791ac16}{deserialize\+Game\+State}} ()
+\begin{DoxyCompactList}\small\item\em Десериализует данные состояния игры из файла сохранения. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_save_load_system}{Save\+Load\+System}} позволяет игроку сохранять и загружать свой прогресс. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_save_load_system_af4ca3c59e3a54cbb83f3e86e37b52678}\label{class_save_load_system_af4ca3c59e3a54cbb83f3e86e37b52678}} 
+\index{SaveLoadSystem@{SaveLoadSystem}!deleteSaveFile@{deleteSaveFile}}
+\index{deleteSaveFile@{deleteSaveFile}!SaveLoadSystem@{SaveLoadSystem}}
+\doxysubsubsection{\texorpdfstring{deleteSaveFile()}{deleteSaveFile()}}
+{\footnotesize\ttfamily void Save\+Load\+System\+::delete\+Save\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{save\+File\+Name }\end{DoxyParamCaption})}
+
+
+
+Удаляет файл сохранения. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em save\+File\+Name} & Имя файла сохранения для удаления. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_save_load_system_a03a7ad36d7299b930caffe09b791ac16}\label{class_save_load_system_a03a7ad36d7299b930caffe09b791ac16}} 
+\index{SaveLoadSystem@{SaveLoadSystem}!deserializeGameState@{deserializeGameState}}
+\index{deserializeGameState@{deserializeGameState}!SaveLoadSystem@{SaveLoadSystem}}
+\doxysubsubsection{\texorpdfstring{deserializeGameState()}{deserializeGameState()}}
+{\footnotesize\ttfamily void Save\+Load\+System\+::deserialize\+Game\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Десериализует данные состояния игры из файла сохранения. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em load\+Params} & Параметры для загрузки состояния игры. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_save_load_system_a2c98f49b73df9103038259dbf2e2d92f}\label{class_save_load_system_a2c98f49b73df9103038259dbf2e2d92f}} 
+\index{SaveLoadSystem@{SaveLoadSystem}!listSaveFiles@{listSaveFiles}}
+\index{listSaveFiles@{listSaveFiles}!SaveLoadSystem@{SaveLoadSystem}}
+\doxysubsubsection{\texorpdfstring{listSaveFiles()}{listSaveFiles()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ Save\+Load\+System\+::list\+Save\+Files (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Перечисляет доступные файлы сохранений. 
+
+\begin{DoxyReturn}{Возвращает}
+Вектор строк, содержащих имена доступных файлов сохранений. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_save_load_system_a958db47854276a20dd05f4667efedd52}\label{class_save_load_system_a958db47854276a20dd05f4667efedd52}} 
+\index{SaveLoadSystem@{SaveLoadSystem}!loadGame@{loadGame}}
+\index{loadGame@{loadGame}!SaveLoadSystem@{SaveLoadSystem}}
+\doxysubsubsection{\texorpdfstring{loadGame()}{loadGame()}}
+{\footnotesize\ttfamily void Save\+Load\+System\+::load\+Game (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{save\+File\+Name }\end{DoxyParamCaption})}
+
+
+
+Загружает состояние игры из файла. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em save\+File\+Name} & Имя файла сохранения. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_save_load_system_a31fcc0da725b07fc0f37f0cb3089e64f}\label{class_save_load_system_a31fcc0da725b07fc0f37f0cb3089e64f}} 
+\index{SaveLoadSystem@{SaveLoadSystem}!saveGame@{saveGame}}
+\index{saveGame@{saveGame}!SaveLoadSystem@{SaveLoadSystem}}
+\doxysubsubsection{\texorpdfstring{saveGame()}{saveGame()}}
+{\footnotesize\ttfamily void Save\+Load\+System\+::save\+Game (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{save\+File\+Name }\end{DoxyParamCaption})}
+
+
+
+Сохраняет текущее состояние игры в файл. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em save\+File\+Name} & Имя файла сохранения. \\
+\hline
+{\em other\+Params} & Другие параметры, такие как данные о состоянии игры. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_save_load_system_aee6cfe1ef668a4f35c4ea45992648d2a}\label{class_save_load_system_aee6cfe1ef668a4f35c4ea45992648d2a}} 
+\index{SaveLoadSystem@{SaveLoadSystem}!serializeGameState@{serializeGameState}}
+\index{serializeGameState@{serializeGameState}!SaveLoadSystem@{SaveLoadSystem}}
+\doxysubsubsection{\texorpdfstring{serializeGameState()}{serializeGameState()}}
+{\footnotesize\ttfamily void Save\+Load\+System\+::serialize\+Game\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Сериализует данные состояния игры для сохранения. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em game\+State\+Params} & Параметры состояния игры для сериализации. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+save\+\_\+load\+\_\+system.\+h\end{DoxyCompactItemize}

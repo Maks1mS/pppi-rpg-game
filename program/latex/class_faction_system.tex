@@ -1,0 +1,64 @@
+\hypertarget{class_faction_system}{}\doxysection{Класс Faction\+System}
+\label{class_faction_system}\index{FactionSystem@{FactionSystem}}
+
+
+Класс \mbox{\hyperlink{class_faction_system}{Faction\+System}} управляет отношениями между игроком и различными группировками.  
+
+
+
+
+{\ttfamily \#include $<$faction\+\_\+system.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_faction_system_a7aed2a5e758bfcb8603a2ab96925b12a}{change\+Reputation}} (int faction\+Id, int reputation\+Delta)
+\begin{DoxyCompactList}\small\item\em Изменяет репутацию игрока в фракции. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_faction_system_a79ebe6b293e934e1b2c69d03e0c5a5b7}{get\+Reputation}} (int faction\+Id)
+\begin{DoxyCompactList}\small\item\em Проверяет отношение фракции к игроку. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_faction_system}{Faction\+System}} управляет отношениями между игроком и различными группировками. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_faction_system_a7aed2a5e758bfcb8603a2ab96925b12a}\label{class_faction_system_a7aed2a5e758bfcb8603a2ab96925b12a}} 
+\index{FactionSystem@{FactionSystem}!changeReputation@{changeReputation}}
+\index{changeReputation@{changeReputation}!FactionSystem@{FactionSystem}}
+\doxysubsubsection{\texorpdfstring{changeReputation()}{changeReputation()}}
+{\footnotesize\ttfamily void Faction\+System\+::change\+Reputation (\begin{DoxyParamCaption}\item[{int}]{faction\+Id,  }\item[{int}]{reputation\+Delta }\end{DoxyParamCaption})}
+
+
+
+Изменяет репутацию игрока в фракции. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em faction\+Id} & Идентификатор фракции. \\
+\hline
+{\em reputation\+Delta} & Изменение репутации игрока в указанной фракции. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_faction_system_a79ebe6b293e934e1b2c69d03e0c5a5b7}\label{class_faction_system_a79ebe6b293e934e1b2c69d03e0c5a5b7}} 
+\index{FactionSystem@{FactionSystem}!getReputation@{getReputation}}
+\index{getReputation@{getReputation}!FactionSystem@{FactionSystem}}
+\doxysubsubsection{\texorpdfstring{getReputation()}{getReputation()}}
+{\footnotesize\ttfamily int Faction\+System\+::get\+Reputation (\begin{DoxyParamCaption}\item[{int}]{faction\+Id }\end{DoxyParamCaption})}
+
+
+
+Проверяет отношение фракции к игроку. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em faction\+Id} & Идентификатор фракции. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Текущая репутация игрока в указанной фракции. 
+\end{DoxyReturn}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+faction\+\_\+system.\+h\end{DoxyCompactItemize}

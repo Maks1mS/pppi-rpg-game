@@ -1,0 +1,62 @@
+\hypertarget{class_u_i_system}{}\doxysection{Класс UISystem}
+\label{class_u_i_system}\index{UISystem@{UISystem}}
+
+
+Класс \mbox{\hyperlink{class_u_i_system}{UISystem}} управляет элементами интерфейса и взаимодействием с пользователем.  
+
+
+
+
+{\ttfamily \#include $<$ui\+\_\+system.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_u_i_system_a283dc5c0eef4096f9fc59ec580d59d7e}{create\+UIElement}} ()
+\begin{DoxyCompactList}\small\item\em Создает новый элемент UI. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_u_i_system_a7a18d7e7398ace317fba4a0352bdb80d}{update}} (float delta\+Time)
+\begin{DoxyCompactList}\small\item\em Обновляет состояние UI элементов. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_u_i_system_ad85673e98a911b0ab7ae101c2a8c5e69}\label{class_u_i_system_ad85673e98a911b0ab7ae101c2a8c5e69}} 
+void \mbox{\hyperlink{class_u_i_system_ad85673e98a911b0ab7ae101c2a8c5e69}{render}} ()
+\begin{DoxyCompactList}\small\item\em Отрисовывает элементы UI. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_u_i_system}{UISystem}} управляет элементами интерфейса и взаимодействием с пользователем. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_u_i_system_a283dc5c0eef4096f9fc59ec580d59d7e}\label{class_u_i_system_a283dc5c0eef4096f9fc59ec580d59d7e}} 
+\index{UISystem@{UISystem}!createUIElement@{createUIElement}}
+\index{createUIElement@{createUIElement}!UISystem@{UISystem}}
+\doxysubsubsection{\texorpdfstring{createUIElement()}{createUIElement()}}
+{\footnotesize\ttfamily void UISystem\+::create\+UIElement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Создает новый элемент UI. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em element\+Params} & Параметры создаваемого элемента интерфейса. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_u_i_system_a7a18d7e7398ace317fba4a0352bdb80d}\label{class_u_i_system_a7a18d7e7398ace317fba4a0352bdb80d}} 
+\index{UISystem@{UISystem}!update@{update}}
+\index{update@{update}!UISystem@{UISystem}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void UISystem\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Обновляет состояние UI элементов. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em delta\+Time} & Время, прошедшее с предыдущего обновления, в секундах. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+ui\+\_\+system.\+h\end{DoxyCompactItemize}

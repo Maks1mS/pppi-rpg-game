@@ -1,0 +1,79 @@
+\hypertarget{class_world_builder}{}\doxysection{Класс World\+Builder}
+\label{class_world_builder}\index{WorldBuilder@{WorldBuilder}}
+
+
+Класс \mbox{\hyperlink{class_world_builder}{World\+Builder}} создает и управляет игровым миром, включая различные локации.  
+
+
+
+
+{\ttfamily \#include $<$world\+\_\+builder.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_world_builder_af586690490698826d518c4443f7fd846}\label{class_world_builder_af586690490698826d518c4443f7fd846}} 
+void \mbox{\hyperlink{class_world_builder_af586690490698826d518c4443f7fd846}{load\+Or\+Create\+World}} ()
+\begin{DoxyCompactList}\small\item\em Загружает или создает новый игровой мир. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_world_builder_abdeb22286148c2c3c9cd3ce507a316d2}{add\+Location}} ()
+\begin{DoxyCompactList}\small\item\em Добавляет новую локацию в мир. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_world_builder_abd6a6b91e20d0ed37e6a04a0bed4b294}{remove\+Location}} (int location\+Id)
+\begin{DoxyCompactList}\small\item\em Удаляет локацию из мира. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_world_builder_a21d2c9c93f10b18cd32ccecf4bf49f9c}{get\+Location\+Info}} (int location\+Id)
+\begin{DoxyCompactList}\small\item\em Получает информацию о локации. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_world_builder}{World\+Builder}} создает и управляет игровым миром, включая различные локации. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_world_builder_abdeb22286148c2c3c9cd3ce507a316d2}\label{class_world_builder_abdeb22286148c2c3c9cd3ce507a316d2}} 
+\index{WorldBuilder@{WorldBuilder}!addLocation@{addLocation}}
+\index{addLocation@{addLocation}!WorldBuilder@{WorldBuilder}}
+\doxysubsubsection{\texorpdfstring{addLocation()}{addLocation()}}
+{\footnotesize\ttfamily void World\+Builder\+::add\+Location (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Добавляет новую локацию в мир. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em location\+Params} & Параметры новой локации. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_world_builder_a21d2c9c93f10b18cd32ccecf4bf49f9c}\label{class_world_builder_a21d2c9c93f10b18cd32ccecf4bf49f9c}} 
+\index{WorldBuilder@{WorldBuilder}!getLocationInfo@{getLocationInfo}}
+\index{getLocationInfo@{getLocationInfo}!WorldBuilder@{WorldBuilder}}
+\doxysubsubsection{\texorpdfstring{getLocationInfo()}{getLocationInfo()}}
+{\footnotesize\ttfamily void World\+Builder\+::get\+Location\+Info (\begin{DoxyParamCaption}\item[{int}]{location\+Id }\end{DoxyParamCaption})}
+
+
+
+Получает информацию о локации. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em location\+Id} & Идентификатор локации. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_world_builder_abd6a6b91e20d0ed37e6a04a0bed4b294}\label{class_world_builder_abd6a6b91e20d0ed37e6a04a0bed4b294}} 
+\index{WorldBuilder@{WorldBuilder}!removeLocation@{removeLocation}}
+\index{removeLocation@{removeLocation}!WorldBuilder@{WorldBuilder}}
+\doxysubsubsection{\texorpdfstring{removeLocation()}{removeLocation()}}
+{\footnotesize\ttfamily void World\+Builder\+::remove\+Location (\begin{DoxyParamCaption}\item[{int}]{location\+Id }\end{DoxyParamCaption})}
+
+
+
+Удаляет локацию из мира. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em location\+Id} & Идентификатор удаляемой локации. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+world\+\_\+builder.\+h\end{DoxyCompactItemize}

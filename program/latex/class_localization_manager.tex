@@ -1,0 +1,79 @@
+\hypertarget{class_localization_manager}{}\doxysection{Класс Localization\+Manager}
+\label{class_localization_manager}\index{LocalizationManager@{LocalizationManager}}
+
+
+Класс \mbox{\hyperlink{class_localization_manager}{Localization\+Manager}} переводит текст и аудио игры на разные языки.  
+
+
+
+
+{\ttfamily \#include $<$localization\+\_\+manager.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_localization_manager_abff19c89d4c43d29fb5c48d7d1c549ff}{load\+Language\+Pack}} (const std\+::string \&language\+Code)
+\begin{DoxyCompactList}\small\item\em Загружает языковой пакет. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_localization_manager_a6dd0b9948e2ae4947fb08d9165e3dc59}{get\+String}} (const std\+::string \&key)
+\begin{DoxyCompactList}\small\item\em Получает переведенную строку по ключу. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_localization_manager_a72afe1b0d03d1385a83c63aa39ff03e8}{set\+Current\+Language}} (const std\+::string \&language\+Code)
+\begin{DoxyCompactList}\small\item\em Устанавливает текущий язык интерфейса. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_localization_manager}{Localization\+Manager}} переводит текст и аудио игры на разные языки. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_localization_manager_a6dd0b9948e2ae4947fb08d9165e3dc59}\label{class_localization_manager_a6dd0b9948e2ae4947fb08d9165e3dc59}} 
+\index{LocalizationManager@{LocalizationManager}!getString@{getString}}
+\index{getString@{getString}!LocalizationManager@{LocalizationManager}}
+\doxysubsubsection{\texorpdfstring{getString()}{getString()}}
+{\footnotesize\ttfamily std\+::string Localization\+Manager\+::get\+String (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{key }\end{DoxyParamCaption})}
+
+
+
+Получает переведенную строку по ключу. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em key} & Ключ строки для перевода. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Переведенная строка. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_localization_manager_abff19c89d4c43d29fb5c48d7d1c549ff}\label{class_localization_manager_abff19c89d4c43d29fb5c48d7d1c549ff}} 
+\index{LocalizationManager@{LocalizationManager}!loadLanguagePack@{loadLanguagePack}}
+\index{loadLanguagePack@{loadLanguagePack}!LocalizationManager@{LocalizationManager}}
+\doxysubsubsection{\texorpdfstring{loadLanguagePack()}{loadLanguagePack()}}
+{\footnotesize\ttfamily void Localization\+Manager\+::load\+Language\+Pack (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{language\+Code }\end{DoxyParamCaption})}
+
+
+
+Загружает языковой пакет. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em language\+Code} & Код языка для загрузки. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_localization_manager_a72afe1b0d03d1385a83c63aa39ff03e8}\label{class_localization_manager_a72afe1b0d03d1385a83c63aa39ff03e8}} 
+\index{LocalizationManager@{LocalizationManager}!setCurrentLanguage@{setCurrentLanguage}}
+\index{setCurrentLanguage@{setCurrentLanguage}!LocalizationManager@{LocalizationManager}}
+\doxysubsubsection{\texorpdfstring{setCurrentLanguage()}{setCurrentLanguage()}}
+{\footnotesize\ttfamily void Localization\+Manager\+::set\+Current\+Language (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{language\+Code }\end{DoxyParamCaption})}
+
+
+
+Устанавливает текущий язык интерфейса. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em language\+Code} & Код языка интерфейса. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+localization\+\_\+manager.\+h\end{DoxyCompactItemize}

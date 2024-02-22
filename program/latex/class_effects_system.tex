@@ -1,0 +1,93 @@
+\hypertarget{class_effects_system}{}\doxysection{Класс Effects\+System}
+\label{class_effects_system}\index{EffectsSystem@{EffectsSystem}}
+
+
+Класс \mbox{\hyperlink{class_effects_system}{Effects\+System}} управляет специальными визуальными и аудиоэффектами.  
+
+
+
+
+{\ttfamily \#include $<$effects\+\_\+system.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_effects_system_acdd7a7d4639fbfdc7663fb05aa632afd}{add\+Effect}} ()
+\begin{DoxyCompactList}\small\item\em Добавляет новый эффект. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_effects_system_a08e38061c38bff563c2f36583637d435}{play\+Effect}} (int effect\+Id)
+\begin{DoxyCompactList}\small\item\em Воспроизводит эффект. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_effects_system_a4af4d4380dd793d5ebbdd4ef381b226c}{stop\+Effect}} (int effect\+Id)
+\begin{DoxyCompactList}\small\item\em Останавливает эффект. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_effects_system_a8117947b39f05afb8ff0fbbcd3fff7d9}{update}} (float delta\+Time)
+\begin{DoxyCompactList}\small\item\em Обновляет активные эффекты. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_effects_system}{Effects\+System}} управляет специальными визуальными и аудиоэффектами. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_effects_system_acdd7a7d4639fbfdc7663fb05aa632afd}\label{class_effects_system_acdd7a7d4639fbfdc7663fb05aa632afd}} 
+\index{EffectsSystem@{EffectsSystem}!addEffect@{addEffect}}
+\index{addEffect@{addEffect}!EffectsSystem@{EffectsSystem}}
+\doxysubsubsection{\texorpdfstring{addEffect()}{addEffect()}}
+{\footnotesize\ttfamily void Effects\+System\+::add\+Effect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Добавляет новый эффект. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em effect\+Params} & Параметры добавляемого эффекта. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_effects_system_a08e38061c38bff563c2f36583637d435}\label{class_effects_system_a08e38061c38bff563c2f36583637d435}} 
+\index{EffectsSystem@{EffectsSystem}!playEffect@{playEffect}}
+\index{playEffect@{playEffect}!EffectsSystem@{EffectsSystem}}
+\doxysubsubsection{\texorpdfstring{playEffect()}{playEffect()}}
+{\footnotesize\ttfamily void Effects\+System\+::play\+Effect (\begin{DoxyParamCaption}\item[{int}]{effect\+Id }\end{DoxyParamCaption})}
+
+
+
+Воспроизводит эффект. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em effect\+Id} & Идентификатор воспроизводимого эффекта. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_effects_system_a4af4d4380dd793d5ebbdd4ef381b226c}\label{class_effects_system_a4af4d4380dd793d5ebbdd4ef381b226c}} 
+\index{EffectsSystem@{EffectsSystem}!stopEffect@{stopEffect}}
+\index{stopEffect@{stopEffect}!EffectsSystem@{EffectsSystem}}
+\doxysubsubsection{\texorpdfstring{stopEffect()}{stopEffect()}}
+{\footnotesize\ttfamily void Effects\+System\+::stop\+Effect (\begin{DoxyParamCaption}\item[{int}]{effect\+Id }\end{DoxyParamCaption})}
+
+
+
+Останавливает эффект. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em effect\+Id} & Идентификатор останавливаемого эффекта. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_effects_system_a8117947b39f05afb8ff0fbbcd3fff7d9}\label{class_effects_system_a8117947b39f05afb8ff0fbbcd3fff7d9}} 
+\index{EffectsSystem@{EffectsSystem}!update@{update}}
+\index{update@{update}!EffectsSystem@{EffectsSystem}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Effects\+System\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Обновляет активные эффекты. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em delta\+Time} & Время, прошедшее с предыдущего обновления, в секундах. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+effects\+\_\+system.\+h\end{DoxyCompactItemize}

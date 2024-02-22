@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PPPI RPG Game: Класс SaveLoadSystem</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PPPI RPG Game
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pri-methods">Закрытые члены</a> &#124;
+<a href="class_save_load_system-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс SaveLoadSystem</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс <a class="el" href="class_save_load_system.html" title="Класс SaveLoadSystem позволяет игроку сохранять и загружать свой прогресс.">SaveLoadSystem</a> позволяет игроку сохранять и загружать свой прогресс.  
+ <a href="class_save_load_system.html#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="save__load__system_8h_source.html">save_load_system.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a31fcc0da725b07fc0f37f0cb3089e64f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_save_load_system.html#a31fcc0da725b07fc0f37f0cb3089e64f">saveGame</a> (const std::string &amp;saveFileName,)</td></tr>
+<tr class="memdesc:a31fcc0da725b07fc0f37f0cb3089e64f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сохраняет текущее состояние игры в файл.  <a href="class_save_load_system.html#a31fcc0da725b07fc0f37f0cb3089e64f">Подробнее...</a><br /></td></tr>
+<tr class="separator:a31fcc0da725b07fc0f37f0cb3089e64f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a958db47854276a20dd05f4667efedd52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_save_load_system.html#a958db47854276a20dd05f4667efedd52">loadGame</a> (const std::string &amp;saveFileName)</td></tr>
+<tr class="memdesc:a958db47854276a20dd05f4667efedd52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Загружает состояние игры из файла.  <a href="class_save_load_system.html#a958db47854276a20dd05f4667efedd52">Подробнее...</a><br /></td></tr>
+<tr class="separator:a958db47854276a20dd05f4667efedd52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c98f49b73df9103038259dbf2e2d92f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_save_load_system.html#a2c98f49b73df9103038259dbf2e2d92f">listSaveFiles</a> ()</td></tr>
+<tr class="memdesc:a2c98f49b73df9103038259dbf2e2d92f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Перечисляет доступные файлы сохранений.  <a href="class_save_load_system.html#a2c98f49b73df9103038259dbf2e2d92f">Подробнее...</a><br /></td></tr>
+<tr class="separator:a2c98f49b73df9103038259dbf2e2d92f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4ca3c59e3a54cbb83f3e86e37b52678"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_save_load_system.html#af4ca3c59e3a54cbb83f3e86e37b52678">deleteSaveFile</a> (const std::string &amp;saveFileName)</td></tr>
+<tr class="memdesc:af4ca3c59e3a54cbb83f3e86e37b52678"><td class="mdescLeft">&#160;</td><td class="mdescRight">Удаляет файл сохранения.  <a href="class_save_load_system.html#af4ca3c59e3a54cbb83f3e86e37b52678">Подробнее...</a><br /></td></tr>
+<tr class="separator:af4ca3c59e3a54cbb83f3e86e37b52678"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Закрытые члены</h2></td></tr>
+<tr class="memitem:aee6cfe1ef668a4f35c4ea45992648d2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_save_load_system.html#aee6cfe1ef668a4f35c4ea45992648d2a">serializeGameState</a> ()</td></tr>
+<tr class="memdesc:aee6cfe1ef668a4f35c4ea45992648d2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сериализует данные состояния игры для сохранения.  <a href="class_save_load_system.html#aee6cfe1ef668a4f35c4ea45992648d2a">Подробнее...</a><br /></td></tr>
+<tr class="separator:aee6cfe1ef668a4f35c4ea45992648d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03a7ad36d7299b930caffe09b791ac16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_save_load_system.html#a03a7ad36d7299b930caffe09b791ac16">deserializeGameState</a> ()</td></tr>
+<tr class="memdesc:a03a7ad36d7299b930caffe09b791ac16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Десериализует данные состояния игры из файла сохранения.  <a href="class_save_load_system.html#a03a7ad36d7299b930caffe09b791ac16">Подробнее...</a><br /></td></tr>
+<tr class="separator:a03a7ad36d7299b930caffe09b791ac16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс <a class="el" href="class_save_load_system.html" title="Класс SaveLoadSystem позволяет игроку сохранять и загружать свой прогресс.">SaveLoadSystem</a> позволяет игроку сохранять и загружать свой прогресс. </p>
+</div><h2 class="groupheader">Методы</h2>
+<a id="af4ca3c59e3a54cbb83f3e86e37b52678"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4ca3c59e3a54cbb83f3e86e37b52678">&#9670;&nbsp;</a></span>deleteSaveFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SaveLoadSystem::deleteSaveFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>saveFileName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Удаляет файл сохранения. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">saveFileName</td><td>Имя файла сохранения для удаления. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a03a7ad36d7299b930caffe09b791ac16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03a7ad36d7299b930caffe09b791ac16">&#9670;&nbsp;</a></span>deserializeGameState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SaveLoadSystem::deserializeGameState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Десериализует данные состояния игры из файла сохранения. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">loadParams</td><td>Параметры для загрузки состояния игры. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2c98f49b73df9103038259dbf2e2d92f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c98f49b73df9103038259dbf2e2d92f">&#9670;&nbsp;</a></span>listSaveFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt; SaveLoadSystem::listSaveFiles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Перечисляет доступные файлы сохранений. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Вектор строк, содержащих имена доступных файлов сохранений. </dd></dl>
+
+</div>
+</div>
+<a id="a958db47854276a20dd05f4667efedd52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a958db47854276a20dd05f4667efedd52">&#9670;&nbsp;</a></span>loadGame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SaveLoadSystem::loadGame </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>saveFileName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Загружает состояние игры из файла. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">saveFileName</td><td>Имя файла сохранения. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a31fcc0da725b07fc0f37f0cb3089e64f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31fcc0da725b07fc0f37f0cb3089e64f">&#9670;&nbsp;</a></span>saveGame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SaveLoadSystem::saveGame </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>saveFileName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Сохраняет текущее состояние игры в файл. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">saveFileName</td><td>Имя файла сохранения. </td></tr>
+    <tr><td class="paramname">otherParams</td><td>Другие параметры, такие как данные о состоянии игры. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aee6cfe1ef668a4f35c4ea45992648d2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee6cfe1ef668a4f35c4ea45992648d2a">&#9670;&nbsp;</a></span>serializeGameState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SaveLoadSystem::serializeGameState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Сериализует данные состояния игры для сохранения. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gameStateParams</td><td>Параметры состояния игры для сериализации. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li><a class="el" href="save__load__system_8h_source.html">save_load_system.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

@@ -1,0 +1,128 @@
+\hypertarget{class_multiplayer_manager}{}\doxysection{Класс Multiplayer\+Manager}
+\label{class_multiplayer_manager}\index{MultiplayerManager@{MultiplayerManager}}
+
+
+Класс \mbox{\hyperlink{class_multiplayer_manager}{Multiplayer\+Manager}} позволяет игрокам взаимодействовать друг с другом в онлайн-\/режиме.  
+
+
+
+
+{\ttfamily \#include $<$multiplayer\+\_\+manager.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_multiplayer_manager_a7e748fa6ce2900814ccd47dfd5c243b6}\label{class_multiplayer_manager_a7e748fa6ce2900814ccd47dfd5c243b6}} 
+void \mbox{\hyperlink{class_multiplayer_manager_a7e748fa6ce2900814ccd47dfd5c243b6}{initialize\+Network}} ()
+\begin{DoxyCompactList}\small\item\em Инициализирует сетевую инфраструктуру для мультиплеера. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_multiplayer_manager_a48d2617d5398f6e55a68e38c1fb37a8b}{create\+Session}} ()
+\begin{DoxyCompactList}\small\item\em Создает новую мультиплеерную сессию. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_multiplayer_manager_a7b6261976a4ad3c2de89b8db964959f7}{join\+Session}} ()
+\begin{DoxyCompactList}\small\item\em Присоединяется к существующей мультиплеерной сессии. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_multiplayer_manager_a8713ca0191b7261126272dafca29f2cf}\label{class_multiplayer_manager_a8713ca0191b7261126272dafca29f2cf}} 
+void \mbox{\hyperlink{class_multiplayer_manager_a8713ca0191b7261126272dafca29f2cf}{update\+Network\+Events}} ()
+\begin{DoxyCompactList}\small\item\em Обрабатывает события сети и обновляет состояние мультиплеера. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_multiplayer_manager_aa484c5d22767eab88a7af456ac6a099f}{send\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Отправляет данные игрока на сервер или другим игрокам. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_multiplayer_manager_a11316b07e85272b4e78b5aa54a4780d5}\label{class_multiplayer_manager_a11316b07e85272b4e78b5aa54a4780d5}} 
+void \mbox{\hyperlink{class_multiplayer_manager_a11316b07e85272b4e78b5aa54a4780d5}{receive\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Получает данные от сервера или других игроков. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_multiplayer_manager_aaa962fd408388cbeb886be26c765926d}\label{class_multiplayer_manager_aaa962fd408388cbeb886be26c765926d}} 
+void \mbox{\hyperlink{class_multiplayer_manager_aaa962fd408388cbeb886be26c765926d}{close\+Session}} ()
+\begin{DoxyCompactList}\small\item\em Завершает сессию и отключается от мультиплеера. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_multiplayer_manager_ab79c879bd64db377585050b20ae4c77f}{handle\+Player\+Join}} ()
+\begin{DoxyCompactList}\small\item\em Обрабатывает подключение нового игрока. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_multiplayer_manager_a4284fd956b3636f15277f53c83ba712a}{handle\+Player\+Leave}} ()
+\begin{DoxyCompactList}\small\item\em Обрабатывает выход игрока из сессии. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_multiplayer_manager_aac68b4eda8b76435634e85ba150c071a}\label{class_multiplayer_manager_aac68b4eda8b76435634e85ba150c071a}} 
+void \mbox{\hyperlink{class_multiplayer_manager_aac68b4eda8b76435634e85ba150c071a}{synchronize\+Game\+State}} ()
+\begin{DoxyCompactList}\small\item\em Синхронизирует состояние игры между всеми участниками. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_multiplayer_manager}{Multiplayer\+Manager}} позволяет игрокам взаимодействовать друг с другом в онлайн-\/режиме. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_multiplayer_manager_a48d2617d5398f6e55a68e38c1fb37a8b}\label{class_multiplayer_manager_a48d2617d5398f6e55a68e38c1fb37a8b}} 
+\index{MultiplayerManager@{MultiplayerManager}!createSession@{createSession}}
+\index{createSession@{createSession}!MultiplayerManager@{MultiplayerManager}}
+\doxysubsubsection{\texorpdfstring{createSession()}{createSession()}}
+{\footnotesize\ttfamily void Multiplayer\+Manager\+::create\+Session (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Создает новую мультиплеерную сессию. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em session\+Params} & Параметры новой сессии. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_multiplayer_manager_ab79c879bd64db377585050b20ae4c77f}\label{class_multiplayer_manager_ab79c879bd64db377585050b20ae4c77f}} 
+\index{MultiplayerManager@{MultiplayerManager}!handlePlayerJoin@{handlePlayerJoin}}
+\index{handlePlayerJoin@{handlePlayerJoin}!MultiplayerManager@{MultiplayerManager}}
+\doxysubsubsection{\texorpdfstring{handlePlayerJoin()}{handlePlayerJoin()}}
+{\footnotesize\ttfamily void Multiplayer\+Manager\+::handle\+Player\+Join (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Обрабатывает подключение нового игрока. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em player\+Data} & Данные о новом подключившемся игроке. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_multiplayer_manager_a4284fd956b3636f15277f53c83ba712a}\label{class_multiplayer_manager_a4284fd956b3636f15277f53c83ba712a}} 
+\index{MultiplayerManager@{MultiplayerManager}!handlePlayerLeave@{handlePlayerLeave}}
+\index{handlePlayerLeave@{handlePlayerLeave}!MultiplayerManager@{MultiplayerManager}}
+\doxysubsubsection{\texorpdfstring{handlePlayerLeave()}{handlePlayerLeave()}}
+{\footnotesize\ttfamily void Multiplayer\+Manager\+::handle\+Player\+Leave (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Обрабатывает выход игрока из сессии. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em player\+Id} & Идентификатор игрока, который вышел из сессии. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_multiplayer_manager_a7b6261976a4ad3c2de89b8db964959f7}\label{class_multiplayer_manager_a7b6261976a4ad3c2de89b8db964959f7}} 
+\index{MultiplayerManager@{MultiplayerManager}!joinSession@{joinSession}}
+\index{joinSession@{joinSession}!MultiplayerManager@{MultiplayerManager}}
+\doxysubsubsection{\texorpdfstring{joinSession()}{joinSession()}}
+{\footnotesize\ttfamily void Multiplayer\+Manager\+::join\+Session (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Присоединяется к существующей мультиплеерной сессии. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em session\+Id} & Идентификатор сессии, к которой присоединяется игрок. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_multiplayer_manager_aa484c5d22767eab88a7af456ac6a099f}\label{class_multiplayer_manager_aa484c5d22767eab88a7af456ac6a099f}} 
+\index{MultiplayerManager@{MultiplayerManager}!sendData@{sendData}}
+\index{sendData@{sendData}!MultiplayerManager@{MultiplayerManager}}
+\doxysubsubsection{\texorpdfstring{sendData()}{sendData()}}
+{\footnotesize\ttfamily void Multiplayer\+Manager\+::send\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Отправляет данные игрока на сервер или другим игрокам. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em data} & Данные для отправки. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+multiplayer\+\_\+manager.\+h\end{DoxyCompactItemize}

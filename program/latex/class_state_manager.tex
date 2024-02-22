@@ -1,0 +1,65 @@
+\hypertarget{class_state_manager}{}\doxysection{Класс State\+Manager}
+\label{class_state_manager}\index{StateManager@{StateManager}}
+
+
+Класс \mbox{\hyperlink{class_state_manager}{State\+Manager}} управляет переходами между различными состояниями игры.  
+
+
+
+
+{\ttfamily \#include $<$state\+\_\+manager.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_state_manager_ad7c3f970b3f0093bef4a1dcd68b4c53e}{push\+State}} ()
+\begin{DoxyCompactList}\small\item\em Добавляет новое состояние в стек состояний. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_manager_a1c5f8c0609e74fb2346b6b7f5930bb38}\label{class_state_manager_a1c5f8c0609e74fb2346b6b7f5930bb38}} 
+void \mbox{\hyperlink{class_state_manager_a1c5f8c0609e74fb2346b6b7f5930bb38}{pop\+State}} ()
+\begin{DoxyCompactList}\small\item\em Удаляет текущее состояние, возвращаясь к предыдущему. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_state_manager_ae02fb746e1ef597d2842aaec506030b2}{update}} (float delta\+Time)
+\begin{DoxyCompactList}\small\item\em Обновляет текущее состояние. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_manager_a02e78818db709db59df3a46a4bb47ddf}\label{class_state_manager_a02e78818db709db59df3a46a4bb47ddf}} 
+void \mbox{\hyperlink{class_state_manager_a02e78818db709db59df3a46a4bb47ddf}{render}} ()
+\begin{DoxyCompactList}\small\item\em Рендерит текущее состояние. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_state_manager}{State\+Manager}} управляет переходами между различными состояниями игры. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_state_manager_ad7c3f970b3f0093bef4a1dcd68b4c53e}\label{class_state_manager_ad7c3f970b3f0093bef4a1dcd68b4c53e}} 
+\index{StateManager@{StateManager}!pushState@{pushState}}
+\index{pushState@{pushState}!StateManager@{StateManager}}
+\doxysubsubsection{\texorpdfstring{pushState()}{pushState()}}
+{\footnotesize\ttfamily void State\+Manager\+::push\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Добавляет новое состояние в стек состояний. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em state} & Состояние, которое нужно добавить. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_state_manager_ae02fb746e1ef597d2842aaec506030b2}\label{class_state_manager_ae02fb746e1ef597d2842aaec506030b2}} 
+\index{StateManager@{StateManager}!update@{update}}
+\index{update@{update}!StateManager@{StateManager}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void State\+Manager\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Обновляет текущее состояние. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em delta\+Time} & Время, прошедшее с предыдущего обновления, в секундах. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+state\+\_\+manager.\+h\end{DoxyCompactItemize}

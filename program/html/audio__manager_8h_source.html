@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PPPI RPG Game: Исходный файл audio_manager.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PPPI RPG Game
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">audio_manager.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="class_audio_manager.html">    4</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_audio_manager.html">AudioManager</a> {</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_audio_manager.html#a0801d65ee762761af37d05a8b56f0206">   10</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_audio_manager.html#a0801d65ee762761af37d05a8b56f0206">loadSound</a>(<span class="keyword">const</span> std::string&amp; path);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_audio_manager.html#a6c982d7c6a38dc542fd28c0b46e41fa2">   16</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_audio_manager.html#a6c982d7c6a38dc542fd28c0b46e41fa2">playSoundEffect</a>(<span class="keyword">const</span> std::string&amp; soundName);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_audio_manager.html#a5283042dbc1b91acb33a2287cfc5e6ef">   22</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_audio_manager.html#a5283042dbc1b91acb33a2287cfc5e6ef">playMusic</a>(<span class="keyword">const</span> std::string&amp; musicName);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_audio_manager.html#ac880de40f09c0065c10948ca138cc7be">   27</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_audio_manager.html#ac880de40f09c0065c10948ca138cc7be">stopAllSounds</a>();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;};</div>
+<div class="ttc" id="aclass_audio_manager_html"><div class="ttname"><a href="class_audio_manager.html">AudioManager</a></div><div class="ttdoc">Класс AudioManager управляет звуками и музыкой в игре.</div><div class="ttdef"><b>Definition:</b> audio_manager.h:4</div></div>
+<div class="ttc" id="aclass_audio_manager_html_a0801d65ee762761af37d05a8b56f0206"><div class="ttname"><a href="class_audio_manager.html#a0801d65ee762761af37d05a8b56f0206">AudioManager::loadSound</a></div><div class="ttdeci">void loadSound(const std::string &amp;path)</div><div class="ttdoc">Загружает аудио ресурс.</div></div>
+<div class="ttc" id="aclass_audio_manager_html_a5283042dbc1b91acb33a2287cfc5e6ef"><div class="ttname"><a href="class_audio_manager.html#a5283042dbc1b91acb33a2287cfc5e6ef">AudioManager::playMusic</a></div><div class="ttdeci">void playMusic(const std::string &amp;musicName)</div><div class="ttdoc">Воспроизводит музыкальную композицию.</div></div>
+<div class="ttc" id="aclass_audio_manager_html_a6c982d7c6a38dc542fd28c0b46e41fa2"><div class="ttname"><a href="class_audio_manager.html#a6c982d7c6a38dc542fd28c0b46e41fa2">AudioManager::playSoundEffect</a></div><div class="ttdeci">void playSoundEffect(const std::string &amp;soundName)</div><div class="ttdoc">Воспроизводит звуковой эффект.</div></div>
+<div class="ttc" id="aclass_audio_manager_html_ac880de40f09c0065c10948ca138cc7be"><div class="ttname"><a href="class_audio_manager.html#ac880de40f09c0065c10948ca138cc7be">AudioManager::stopAllSounds</a></div><div class="ttdeci">void stopAllSounds()</div><div class="ttdoc">Останавливает все звуки и музыку.</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

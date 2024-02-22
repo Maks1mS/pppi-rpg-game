@@ -1,0 +1,70 @@
+\hypertarget{class_controller_support}{}\doxysection{Класс Controller\+Support}
+\label{class_controller_support}\index{ControllerSupport@{ControllerSupport}}
+
+
+Класс \mbox{\hyperlink{class_controller_support}{Controller\+Support}} позволяет играть с использованием различных устройств ввода.  
+
+
+
+
+{\ttfamily \#include $<$controller\+\_\+support.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_controller_support_a66da207947b3cc8d44d0cdd96cfc1f10}\label{class_controller_support_a66da207947b3cc8d44d0cdd96cfc1f10}} 
+void \mbox{\hyperlink{class_controller_support_a66da207947b3cc8d44d0cdd96cfc1f10}{initialize}} ()
+\begin{DoxyCompactList}\small\item\em Инициализирует поддержку контроллеров. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_controller_support_addbdc82f140e553a598efa5139a02a23}\label{class_controller_support_addbdc82f140e553a598efa5139a02a23}} 
+void \mbox{\hyperlink{class_controller_support_addbdc82f140e553a598efa5139a02a23}{update}} ()
+\begin{DoxyCompactList}\small\item\em Проверяет подключение контроллеров и обновляет их состояние. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_controller_support_aa8618c603255029a1ecdc0357617135d}{get\+Button\+State}} (int controller\+Id, int button\+Id)
+\begin{DoxyCompactList}\small\item\em Возвращает состояние указанной кнопки на контроллере. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_controller_support_aa2098c113fb663ee7881d707c31584ca}{configure\+Button\+Mapping}} ()
+\begin{DoxyCompactList}\small\item\em Конфигурирует маппинг кнопок контроллера. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_controller_support}{Controller\+Support}} позволяет играть с использованием различных устройств ввода. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_controller_support_aa2098c113fb663ee7881d707c31584ca}\label{class_controller_support_aa2098c113fb663ee7881d707c31584ca}} 
+\index{ControllerSupport@{ControllerSupport}!configureButtonMapping@{configureButtonMapping}}
+\index{configureButtonMapping@{configureButtonMapping}!ControllerSupport@{ControllerSupport}}
+\doxysubsubsection{\texorpdfstring{configureButtonMapping()}{configureButtonMapping()}}
+{\footnotesize\ttfamily void Controller\+Support\+::configure\+Button\+Mapping (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Конфигурирует маппинг кнопок контроллера. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em mapping\+Params} & Параметры маппинга кнопок. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_controller_support_aa8618c603255029a1ecdc0357617135d}\label{class_controller_support_aa8618c603255029a1ecdc0357617135d}} 
+\index{ControllerSupport@{ControllerSupport}!getButtonState@{getButtonState}}
+\index{getButtonState@{getButtonState}!ControllerSupport@{ControllerSupport}}
+\doxysubsubsection{\texorpdfstring{getButtonState()}{getButtonState()}}
+{\footnotesize\ttfamily bool Controller\+Support\+::get\+Button\+State (\begin{DoxyParamCaption}\item[{int}]{controller\+Id,  }\item[{int}]{button\+Id }\end{DoxyParamCaption})}
+
+
+
+Возвращает состояние указанной кнопки на контроллере. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em controller\+Id} & Идентификатор контроллера. \\
+\hline
+{\em button\+Id} & Идентификатор кнопки на контроллере. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Состояние кнопки (нажата/не нажата). 
+\end{DoxyReturn}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+controller\+\_\+support.\+h\end{DoxyCompactItemize}

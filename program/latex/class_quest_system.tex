@@ -1,0 +1,76 @@
+\hypertarget{class_quest_system}{}\doxysection{Класс Quest\+System}
+\label{class_quest_system}\index{QuestSystem@{QuestSystem}}
+
+
+Класс \mbox{\hyperlink{class_quest_system}{Quest\+System}} управляет заданиями и миссиями.  
+
+
+
+
+{\ttfamily \#include $<$quest\+\_\+system.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_quest_system_a672038c5907685856f4d417cd795d785}{add\+Quest}} ()
+\begin{DoxyCompactList}\small\item\em Добавляет новый квест. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_quest_system_aa7289df0bf8309e86e86f4569fc547b8}{update}} (float delta\+Time)
+\begin{DoxyCompactList}\small\item\em Проверяет выполнение условий квеста. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_quest_system_a2c4f81a2b40e5e6b9a57337646cb19ed}{complete\+Quest}} (int quest\+Id)
+\begin{DoxyCompactList}\small\item\em Завершает квест. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_quest_system}{Quest\+System}} управляет заданиями и миссиями. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_quest_system_a672038c5907685856f4d417cd795d785}\label{class_quest_system_a672038c5907685856f4d417cd795d785}} 
+\index{QuestSystem@{QuestSystem}!addQuest@{addQuest}}
+\index{addQuest@{addQuest}!QuestSystem@{QuestSystem}}
+\doxysubsubsection{\texorpdfstring{addQuest()}{addQuest()}}
+{\footnotesize\ttfamily void Quest\+System\+::add\+Quest (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Добавляет новый квест. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em quest\+Params} & Параметры добавляемого квеста. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_quest_system_a2c4f81a2b40e5e6b9a57337646cb19ed}\label{class_quest_system_a2c4f81a2b40e5e6b9a57337646cb19ed}} 
+\index{QuestSystem@{QuestSystem}!completeQuest@{completeQuest}}
+\index{completeQuest@{completeQuest}!QuestSystem@{QuestSystem}}
+\doxysubsubsection{\texorpdfstring{completeQuest()}{completeQuest()}}
+{\footnotesize\ttfamily void Quest\+System\+::complete\+Quest (\begin{DoxyParamCaption}\item[{int}]{quest\+Id }\end{DoxyParamCaption})}
+
+
+
+Завершает квест. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em quest\+Id} & Идентификатор завершаемого квеста. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_quest_system_aa7289df0bf8309e86e86f4569fc547b8}\label{class_quest_system_aa7289df0bf8309e86e86f4569fc547b8}} 
+\index{QuestSystem@{QuestSystem}!update@{update}}
+\index{update@{update}!QuestSystem@{QuestSystem}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Quest\+System\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Проверяет выполнение условий квеста. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em delta\+Time} & Время, прошедшее с предыдущего обновления, в секундах. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+quest\+\_\+system.\+h\end{DoxyCompactItemize}

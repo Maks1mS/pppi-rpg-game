@@ -1,12 +1,24 @@
-// Локализация - переводит текст и аудио игры на разные языки
+/**
+ * @brief Класс LocalizationManager переводит текст и аудио игры на разные языки.
+ */
 class LocalizationManager {
 public:
-    // Загружает языковой пакет
+    /**
+     * @brief Загружает языковой пакет.
+     * @param languageCode Код языка для загрузки.
+     */
     void loadLanguagePack(const std::string& languageCode);
 
-    // Получает переведенную строку по ключу
+    /**
+     * @brief Получает переведенную строку по ключу.
+     * @param key Ключ строки для перевода.
+     * @return Переведенная строка.
+     */
     std::string getString(const std::string& key);
 
-    // Устанавливает текущий язык интерфейса
+    /**
+     * @brief Устанавливает текущий язык интерфейса.
+     * @param languageCode Код языка интерфейса.
+     */
     void setCurrentLanguage(const std::string& languageCode);
 };

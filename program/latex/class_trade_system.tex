@@ -1,0 +1,62 @@
+\hypertarget{class_trade_system}{}\doxysection{Класс Trade\+System}
+\label{class_trade_system}\index{TradeSystem@{TradeSystem}}
+
+
+Класс \mbox{\hyperlink{class_trade_system}{Trade\+System}} управляет экономикой и торговлей в игре.  
+
+
+
+
+{\ttfamily \#include $<$trade\+\_\+system.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_trade_system_a56bd2df3c61ab6e7f2531c35b04c64e8}{initiate\+Trade}} ()
+\begin{DoxyCompactList}\small\item\em Открывает торговое окно с NPC или другим игроком. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_trade_system_a16436c76148cc7e8da199a237de3d8c6}{execute\+Trade}} ()
+\begin{DoxyCompactList}\small\item\em Выполняет обмен предметами и/или валютой. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_trade_system_a387cff93c2de627358c4300094a01865}\label{class_trade_system_a387cff93c2de627358c4300094a01865}} 
+void \mbox{\hyperlink{class_trade_system_a387cff93c2de627358c4300094a01865}{close\+Trade}} ()
+\begin{DoxyCompactList}\small\item\em Закрывает торговое окно. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_trade_system}{Trade\+System}} управляет экономикой и торговлей в игре. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_trade_system_a16436c76148cc7e8da199a237de3d8c6}\label{class_trade_system_a16436c76148cc7e8da199a237de3d8c6}} 
+\index{TradeSystem@{TradeSystem}!executeTrade@{executeTrade}}
+\index{executeTrade@{executeTrade}!TradeSystem@{TradeSystem}}
+\doxysubsubsection{\texorpdfstring{executeTrade()}{executeTrade()}}
+{\footnotesize\ttfamily void Trade\+System\+::execute\+Trade (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Выполняет обмен предметами и/или валютой. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em trade\+Params} & Параметры торговли, такие как предметы для обмена и сумма валюты. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_trade_system_a56bd2df3c61ab6e7f2531c35b04c64e8}\label{class_trade_system_a56bd2df3c61ab6e7f2531c35b04c64e8}} 
+\index{TradeSystem@{TradeSystem}!initiateTrade@{initiateTrade}}
+\index{initiateTrade@{initiateTrade}!TradeSystem@{TradeSystem}}
+\doxysubsubsection{\texorpdfstring{initiateTrade()}{initiateTrade()}}
+{\footnotesize\ttfamily void Trade\+System\+::initiate\+Trade (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Открывает торговое окно с NPC или другим игроком. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em trading\+Partner} & Торговый партнер (NPC или другой игрок). \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+trade\+\_\+system.\+h\end{DoxyCompactItemize}

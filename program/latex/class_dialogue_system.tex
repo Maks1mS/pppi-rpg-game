@@ -1,0 +1,62 @@
+\hypertarget{class_dialogue_system}{}\doxysection{Класс Dialogue\+System}
+\label{class_dialogue_system}\index{DialogueSystem@{DialogueSystem}}
+
+
+Класс \mbox{\hyperlink{class_dialogue_system}{Dialogue\+System}} позволяет игрокам взаимодействовать с NPC через диалоговые окна.  
+
+
+
+
+{\ttfamily \#include $<$dialogue\+\_\+system.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_dialogue_system_a3d6202c96351d80f754c7543ce11858f}{start\+Dialogue}} (int npc\+Id)
+\begin{DoxyCompactList}\small\item\em Начинает диалог с NPC. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_dialogue_system_a9a59df0d39db84841e7f2e7e96b2c9db}{process\+Dialogue\+Choice}} (int choice\+Id)
+\begin{DoxyCompactList}\small\item\em Обрабатывает выбор игрока в диалоге. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_dialogue_system_a190168bfb39e374dcf112636bf9a8de1}\label{class_dialogue_system_a190168bfb39e374dcf112636bf9a8de1}} 
+void \mbox{\hyperlink{class_dialogue_system_a190168bfb39e374dcf112636bf9a8de1}{end\+Dialogue}} ()
+\begin{DoxyCompactList}\small\item\em Завершает диалог. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_dialogue_system}{Dialogue\+System}} позволяет игрокам взаимодействовать с NPC через диалоговые окна. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_dialogue_system_a9a59df0d39db84841e7f2e7e96b2c9db}\label{class_dialogue_system_a9a59df0d39db84841e7f2e7e96b2c9db}} 
+\index{DialogueSystem@{DialogueSystem}!processDialogueChoice@{processDialogueChoice}}
+\index{processDialogueChoice@{processDialogueChoice}!DialogueSystem@{DialogueSystem}}
+\doxysubsubsection{\texorpdfstring{processDialogueChoice()}{processDialogueChoice()}}
+{\footnotesize\ttfamily void Dialogue\+System\+::process\+Dialogue\+Choice (\begin{DoxyParamCaption}\item[{int}]{choice\+Id }\end{DoxyParamCaption})}
+
+
+
+Обрабатывает выбор игрока в диалоге. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em choice\+Id} & Идентификатор выбранного варианта диалога. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_dialogue_system_a3d6202c96351d80f754c7543ce11858f}\label{class_dialogue_system_a3d6202c96351d80f754c7543ce11858f}} 
+\index{DialogueSystem@{DialogueSystem}!startDialogue@{startDialogue}}
+\index{startDialogue@{startDialogue}!DialogueSystem@{DialogueSystem}}
+\doxysubsubsection{\texorpdfstring{startDialogue()}{startDialogue()}}
+{\footnotesize\ttfamily void Dialogue\+System\+::start\+Dialogue (\begin{DoxyParamCaption}\item[{int}]{npc\+Id }\end{DoxyParamCaption})}
+
+
+
+Начинает диалог с NPC. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em npc\+Id} & Идентификатор NPC, с которым начинается диалог. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+dialogue\+\_\+system.\+h\end{DoxyCompactItemize}

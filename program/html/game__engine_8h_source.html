@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PPPI RPG Game: Исходный файл game_engine.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PPPI RPG Game
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">game_engine.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="class_game_engine.html">    4</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_game_engine.html">GameEngine</a> {</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="class_game_engine.html#af52f9b4cf1d9b2694eeb0aa2ea77de2f">    9</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game_engine.html#af52f9b4cf1d9b2694eeb0aa2ea77de2f">initialize</a>();</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="class_game_engine.html#ab01970da2c68fefbf48b98c59d5627ae">   14</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game_engine.html#ab01970da2c68fefbf48b98c59d5627ae">run</a>();</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_game_engine.html#aba20f4cd8d357c40ef763b17ab407918">   19</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game_engine.html#aba20f4cd8d357c40ef763b17ab407918">shutdown</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_game_engine.html#aeb8df057dde6e18da6d2dc3e468afc8b">   26</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game_engine.html#aeb8df057dde6e18da6d2dc3e468afc8b">update</a>(<span class="keywordtype">float</span> deltaTime);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_game_engine.html#a267bf9164ba09e32b7a24ba4afb527d4">   31</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game_engine.html#a267bf9164ba09e32b7a24ba4afb527d4">render</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;};</div>
+<div class="ttc" id="aclass_game_engine_html"><div class="ttname"><a href="class_game_engine.html">GameEngine</a></div><div class="ttdoc">Класс GameEngine является основой для всей архитектуры игры.</div><div class="ttdef"><b>Definition:</b> game_engine.h:4</div></div>
+<div class="ttc" id="aclass_game_engine_html_a267bf9164ba09e32b7a24ba4afb527d4"><div class="ttname"><a href="class_game_engine.html#a267bf9164ba09e32b7a24ba4afb527d4">GameEngine::render</a></div><div class="ttdeci">void render()</div><div class="ttdoc">Рендерит текущее состояние игры.</div></div>
+<div class="ttc" id="aclass_game_engine_html_ab01970da2c68fefbf48b98c59d5627ae"><div class="ttname"><a href="class_game_engine.html#ab01970da2c68fefbf48b98c59d5627ae">GameEngine::run</a></div><div class="ttdeci">void run()</div><div class="ttdoc">Запускает основной игровой цикл.</div></div>
+<div class="ttc" id="aclass_game_engine_html_aba20f4cd8d357c40ef763b17ab407918"><div class="ttname"><a href="class_game_engine.html#aba20f4cd8d357c40ef763b17ab407918">GameEngine::shutdown</a></div><div class="ttdeci">void shutdown()</div><div class="ttdoc">Останавливает игру и освобождает ресурсы.</div></div>
+<div class="ttc" id="aclass_game_engine_html_aeb8df057dde6e18da6d2dc3e468afc8b"><div class="ttname"><a href="class_game_engine.html#aeb8df057dde6e18da6d2dc3e468afc8b">GameEngine::update</a></div><div class="ttdeci">void update(float deltaTime)</div><div class="ttdoc">Обновляет все подсистемы (физика, анимация, AI и т.д.).</div></div>
+<div class="ttc" id="aclass_game_engine_html_af52f9b4cf1d9b2694eeb0aa2ea77de2f"><div class="ttname"><a href="class_game_engine.html#af52f9b4cf1d9b2694eeb0aa2ea77de2f">GameEngine::initialize</a></div><div class="ttdeci">void initialize()</div><div class="ttdoc">Инициализирует игровой движок и все его подсистемы.</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

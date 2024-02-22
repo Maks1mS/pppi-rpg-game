@@ -1,0 +1,93 @@
+\hypertarget{class_weather_time_system}{}\doxysection{Класс Weather\+Time\+System}
+\label{class_weather_time_system}\index{WeatherTimeSystem@{WeatherTimeSystem}}
+
+
+Класс \mbox{\hyperlink{class_weather_time_system}{Weather\+Time\+System}} симулирует изменение погоды и суточные циклы.  
+
+
+
+
+{\ttfamily \#include $<$weather\+\_\+time\+\_\+system.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_weather_time_system_a6f7124f3c43135e4a20a0244acb25d8a}{initialize}} ()
+\begin{DoxyCompactList}\small\item\em Устанавливает начальные параметры времени и погоды. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_weather_time_system_a40074ebb6100edebf9cb0896bde577d7}{update}} (float delta\+Time)
+\begin{DoxyCompactList}\small\item\em Обновляет состояние погоды и времени. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_weather_time_system_a7ace7672f172888226097c572492c068}{change\+Weather}} ()
+\begin{DoxyCompactList}\small\item\em Изменяет погодные условия. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_weather_time_system_a84e7c37d0fb3de4d8fd00aaf6e995f90}{set\+Time\+Of\+Day}} ()
+\begin{DoxyCompactList}\small\item\em Устанавливает время суток. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_weather_time_system}{Weather\+Time\+System}} симулирует изменение погоды и суточные циклы. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_weather_time_system_a7ace7672f172888226097c572492c068}\label{class_weather_time_system_a7ace7672f172888226097c572492c068}} 
+\index{WeatherTimeSystem@{WeatherTimeSystem}!changeWeather@{changeWeather}}
+\index{changeWeather@{changeWeather}!WeatherTimeSystem@{WeatherTimeSystem}}
+\doxysubsubsection{\texorpdfstring{changeWeather()}{changeWeather()}}
+{\footnotesize\ttfamily void Weather\+Time\+System\+::change\+Weather (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Изменяет погодные условия. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em new\+Weather} & Новые погодные условия. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_weather_time_system_a6f7124f3c43135e4a20a0244acb25d8a}\label{class_weather_time_system_a6f7124f3c43135e4a20a0244acb25d8a}} 
+\index{WeatherTimeSystem@{WeatherTimeSystem}!initialize@{initialize}}
+\index{initialize@{initialize}!WeatherTimeSystem@{WeatherTimeSystem}}
+\doxysubsubsection{\texorpdfstring{initialize()}{initialize()}}
+{\footnotesize\ttfamily void Weather\+Time\+System\+::initialize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Устанавливает начальные параметры времени и погоды. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em initial\+Params} & Начальные параметры времени и погоды. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_weather_time_system_a84e7c37d0fb3de4d8fd00aaf6e995f90}\label{class_weather_time_system_a84e7c37d0fb3de4d8fd00aaf6e995f90}} 
+\index{WeatherTimeSystem@{WeatherTimeSystem}!setTimeOfDay@{setTimeOfDay}}
+\index{setTimeOfDay@{setTimeOfDay}!WeatherTimeSystem@{WeatherTimeSystem}}
+\doxysubsubsection{\texorpdfstring{setTimeOfDay()}{setTimeOfDay()}}
+{\footnotesize\ttfamily void Weather\+Time\+System\+::set\+Time\+Of\+Day (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Устанавливает время суток. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em new\+Time\+Of\+Day} & Новое время суток. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_weather_time_system_a40074ebb6100edebf9cb0896bde577d7}\label{class_weather_time_system_a40074ebb6100edebf9cb0896bde577d7}} 
+\index{WeatherTimeSystem@{WeatherTimeSystem}!update@{update}}
+\index{update@{update}!WeatherTimeSystem@{WeatherTimeSystem}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Weather\+Time\+System\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Обновляет состояние погоды и времени. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em delta\+Time} & Время, прошедшее с предыдущего обновления, в секундах. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+weather\+\_\+time\+\_\+system.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,79 @@
+\hypertarget{class_audio_manager}{}\doxysection{Класс Audio\+Manager}
+\label{class_audio_manager}\index{AudioManager@{AudioManager}}
+
+
+Класс \mbox{\hyperlink{class_audio_manager}{Audio\+Manager}} управляет звуками и музыкой в игре.  
+
+
+
+
+{\ttfamily \#include $<$audio\+\_\+manager.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_audio_manager_a0801d65ee762761af37d05a8b56f0206}{load\+Sound}} (const std\+::string \&path)
+\begin{DoxyCompactList}\small\item\em Загружает аудио ресурс. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_audio_manager_a6c982d7c6a38dc542fd28c0b46e41fa2}{play\+Sound\+Effect}} (const std\+::string \&sound\+Name)
+\begin{DoxyCompactList}\small\item\em Воспроизводит звуковой эффект. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_audio_manager_a5283042dbc1b91acb33a2287cfc5e6ef}{play\+Music}} (const std\+::string \&music\+Name)
+\begin{DoxyCompactList}\small\item\em Воспроизводит музыкальную композицию. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_audio_manager_ac880de40f09c0065c10948ca138cc7be}\label{class_audio_manager_ac880de40f09c0065c10948ca138cc7be}} 
+void \mbox{\hyperlink{class_audio_manager_ac880de40f09c0065c10948ca138cc7be}{stop\+All\+Sounds}} ()
+\begin{DoxyCompactList}\small\item\em Останавливает все звуки и музыку. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_audio_manager}{Audio\+Manager}} управляет звуками и музыкой в игре. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_audio_manager_a0801d65ee762761af37d05a8b56f0206}\label{class_audio_manager_a0801d65ee762761af37d05a8b56f0206}} 
+\index{AudioManager@{AudioManager}!loadSound@{loadSound}}
+\index{loadSound@{loadSound}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{loadSound()}{loadSound()}}
+{\footnotesize\ttfamily void Audio\+Manager\+::load\+Sound (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{path }\end{DoxyParamCaption})}
+
+
+
+Загружает аудио ресурс. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em path} & Путь к аудио файлу. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_audio_manager_a5283042dbc1b91acb33a2287cfc5e6ef}\label{class_audio_manager_a5283042dbc1b91acb33a2287cfc5e6ef}} 
+\index{AudioManager@{AudioManager}!playMusic@{playMusic}}
+\index{playMusic@{playMusic}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{playMusic()}{playMusic()}}
+{\footnotesize\ttfamily void Audio\+Manager\+::play\+Music (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{music\+Name }\end{DoxyParamCaption})}
+
+
+
+Воспроизводит музыкальную композицию. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em music\+Name} & Наименование музыкальной композиции. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_audio_manager_a6c982d7c6a38dc542fd28c0b46e41fa2}\label{class_audio_manager_a6c982d7c6a38dc542fd28c0b46e41fa2}} 
+\index{AudioManager@{AudioManager}!playSoundEffect@{playSoundEffect}}
+\index{playSoundEffect@{playSoundEffect}!AudioManager@{AudioManager}}
+\doxysubsubsection{\texorpdfstring{playSoundEffect()}{playSoundEffect()}}
+{\footnotesize\ttfamily void Audio\+Manager\+::play\+Sound\+Effect (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{sound\+Name }\end{DoxyParamCaption})}
+
+
+
+Воспроизводит звуковой эффект. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em sound\+Name} & Наименование звукового эффекта. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+audio\+\_\+manager.\+h\end{DoxyCompactItemize}

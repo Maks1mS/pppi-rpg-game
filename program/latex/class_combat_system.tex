@@ -1,0 +1,76 @@
+\hypertarget{class_combat_system}{}\doxysection{Класс Combat\+System}
+\label{class_combat_system}\index{CombatSystem@{CombatSystem}}
+
+
+Класс \mbox{\hyperlink{class_combat_system}{Combat\+System}} регулирует механики боя и взаимодействия во время сражений.  
+
+
+
+
+{\ttfamily \#include $<$combat\+\_\+system.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_combat_system_a0ad07302c74cbece66b3b873d46dbe20}{initiate\+Combat}} ()
+\begin{DoxyCompactList}\small\item\em Инициирует бой между персонажами или группами. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_combat_system_a7f53d4e02249457ff7a2859bde5f953a}{update}} (float delta\+Time)
+\begin{DoxyCompactList}\small\item\em Обновляет состояние боя. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_combat_system_aed5618027fca5c1538f887ef9b21cb2d}{calculate\+Attack\+Outcome}} ()
+\begin{DoxyCompactList}\small\item\em Рассчитывает исход атаки. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_combat_system}{Combat\+System}} регулирует механики боя и взаимодействия во время сражений. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_combat_system_aed5618027fca5c1538f887ef9b21cb2d}\label{class_combat_system_aed5618027fca5c1538f887ef9b21cb2d}} 
+\index{CombatSystem@{CombatSystem}!calculateAttackOutcome@{calculateAttackOutcome}}
+\index{calculateAttackOutcome@{calculateAttackOutcome}!CombatSystem@{CombatSystem}}
+\doxysubsubsection{\texorpdfstring{calculateAttackOutcome()}{calculateAttackOutcome()}}
+{\footnotesize\ttfamily void Combat\+System\+::calculate\+Attack\+Outcome (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Рассчитывает исход атаки. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em attack\+Params} & Параметры атаки. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_combat_system_a0ad07302c74cbece66b3b873d46dbe20}\label{class_combat_system_a0ad07302c74cbece66b3b873d46dbe20}} 
+\index{CombatSystem@{CombatSystem}!initiateCombat@{initiateCombat}}
+\index{initiateCombat@{initiateCombat}!CombatSystem@{CombatSystem}}
+\doxysubsubsection{\texorpdfstring{initiateCombat()}{initiateCombat()}}
+{\footnotesize\ttfamily void Combat\+System\+::initiate\+Combat (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Инициирует бой между персонажами или группами. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em participants} & Участники боя. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_combat_system_a7f53d4e02249457ff7a2859bde5f953a}\label{class_combat_system_a7f53d4e02249457ff7a2859bde5f953a}} 
+\index{CombatSystem@{CombatSystem}!update@{update}}
+\index{update@{update}!CombatSystem@{CombatSystem}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Combat\+System\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Обновляет состояние боя. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em delta\+Time} & Время, прошедшее с предыдущего обновления, в секундах. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+combat\+\_\+system.\+h\end{DoxyCompactItemize}

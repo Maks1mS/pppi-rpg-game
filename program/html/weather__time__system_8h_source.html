@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>PPPI RPG Game: Исходный файл weather_time_system.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PPPI RPG Game
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">weather_time_system.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="class_weather_time_system.html">    4</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_weather_time_system.html">WeatherTimeSystem</a> {</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_weather_time_system.html#a6f7124f3c43135e4a20a0244acb25d8a">   10</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_weather_time_system.html#a6f7124f3c43135e4a20a0244acb25d8a">initialize</a>(<span class="comment">/* начальные параметры */</span>);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_weather_time_system.html#a40074ebb6100edebf9cb0896bde577d7">   16</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_weather_time_system.html#a40074ebb6100edebf9cb0896bde577d7">update</a>(<span class="keywordtype">float</span> deltaTime);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_weather_time_system.html#a7ace7672f172888226097c572492c068">   22</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_weather_time_system.html#a7ace7672f172888226097c572492c068">changeWeather</a>(<span class="comment">/* новые погодные условия */</span>);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_weather_time_system.html#a84e7c37d0fb3de4d8fd00aaf6e995f90">   28</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_weather_time_system.html#a84e7c37d0fb3de4d8fd00aaf6e995f90">setTimeOfDay</a>(<span class="comment">/* новое время суток */</span>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;};</div>
+<div class="ttc" id="aclass_weather_time_system_html"><div class="ttname"><a href="class_weather_time_system.html">WeatherTimeSystem</a></div><div class="ttdoc">Класс WeatherTimeSystem симулирует изменение погоды и суточные циклы.</div><div class="ttdef"><b>Definition:</b> weather_time_system.h:4</div></div>
+<div class="ttc" id="aclass_weather_time_system_html_a40074ebb6100edebf9cb0896bde577d7"><div class="ttname"><a href="class_weather_time_system.html#a40074ebb6100edebf9cb0896bde577d7">WeatherTimeSystem::update</a></div><div class="ttdeci">void update(float deltaTime)</div><div class="ttdoc">Обновляет состояние погоды и времени.</div></div>
+<div class="ttc" id="aclass_weather_time_system_html_a6f7124f3c43135e4a20a0244acb25d8a"><div class="ttname"><a href="class_weather_time_system.html#a6f7124f3c43135e4a20a0244acb25d8a">WeatherTimeSystem::initialize</a></div><div class="ttdeci">void initialize()</div><div class="ttdoc">Устанавливает начальные параметры времени и погоды.</div></div>
+<div class="ttc" id="aclass_weather_time_system_html_a7ace7672f172888226097c572492c068"><div class="ttname"><a href="class_weather_time_system.html#a7ace7672f172888226097c572492c068">WeatherTimeSystem::changeWeather</a></div><div class="ttdeci">void changeWeather()</div><div class="ttdoc">Изменяет погодные условия.</div></div>
+<div class="ttc" id="aclass_weather_time_system_html_a84e7c37d0fb3de4d8fd00aaf6e995f90"><div class="ttname"><a href="class_weather_time_system.html#a84e7c37d0fb3de4d8fd00aaf6e995f90">WeatherTimeSystem::setTimeOfDay</a></div><div class="ttdeci">void setTimeOfDay()</div><div class="ttdoc">Устанавливает время суток.</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

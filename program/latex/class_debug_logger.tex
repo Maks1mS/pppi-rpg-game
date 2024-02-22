@@ -1,0 +1,76 @@
+\hypertarget{class_debug_logger}{}\doxysection{Класс Debug\+Logger}
+\label{class_debug_logger}\index{DebugLogger@{DebugLogger}}
+
+
+Класс \mbox{\hyperlink{class_debug_logger}{Debug\+Logger}} предоставляет инструменты для отслеживания ошибок и оптимизации производительности.  
+
+
+
+
+{\ttfamily \#include $<$debug\+\_\+logger.\+h$>$}
+
+\doxysubsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_debug_logger_a469be679e692a7653fc036a594eb6428}{log}} (const std\+::string \&message)
+\begin{DoxyCompactList}\small\item\em Записывает сообщение в лог. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_debug_logger_ac1bcbfec9894362ce94ecd3d534fd585}{warn}} (const std\+::string \&message)
+\begin{DoxyCompactList}\small\item\em Записывает предупреждение в лог. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_debug_logger_a268e7986304aa98d8194301a08f1aeea}{error}} (const std\+::string \&message)
+\begin{DoxyCompactList}\small\item\em Записывает ошибку в лог. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_debug_logger}{Debug\+Logger}} предоставляет инструменты для отслеживания ошибок и оптимизации производительности. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_debug_logger_a268e7986304aa98d8194301a08f1aeea}\label{class_debug_logger_a268e7986304aa98d8194301a08f1aeea}} 
+\index{DebugLogger@{DebugLogger}!error@{error}}
+\index{error@{error}!DebugLogger@{DebugLogger}}
+\doxysubsubsection{\texorpdfstring{error()}{error()}}
+{\footnotesize\ttfamily static void Debug\+Logger\+::error (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{message }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Записывает ошибку в лог. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em message} & Сообщение об ошибке. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_debug_logger_a469be679e692a7653fc036a594eb6428}\label{class_debug_logger_a469be679e692a7653fc036a594eb6428}} 
+\index{DebugLogger@{DebugLogger}!log@{log}}
+\index{log@{log}!DebugLogger@{DebugLogger}}
+\doxysubsubsection{\texorpdfstring{log()}{log()}}
+{\footnotesize\ttfamily static void Debug\+Logger\+::log (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{message }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Записывает сообщение в лог. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em message} & Сообщение для записи. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_debug_logger_ac1bcbfec9894362ce94ecd3d534fd585}\label{class_debug_logger_ac1bcbfec9894362ce94ecd3d534fd585}} 
+\index{DebugLogger@{DebugLogger}!warn@{warn}}
+\index{warn@{warn}!DebugLogger@{DebugLogger}}
+\doxysubsubsection{\texorpdfstring{warn()}{warn()}}
+{\footnotesize\ttfamily static void Debug\+Logger\+::warn (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{message }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Записывает предупреждение в лог. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em message} & Сообщение предупреждения. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+debug\+\_\+logger.\+h\end{DoxyCompactItemize}

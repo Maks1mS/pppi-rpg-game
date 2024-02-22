@@ -1,13 +1,25 @@
-// Менеджер ресурсов - управляет загрузкой и выгрузкой игровых ресурсов
+/**
+ * @brief Класс ResourceManager управляет загрузкой и выгрузкой игровых ресурсов.
+ */
 class ResourceManager {
 public:
-    // Загружает ресурс (текстура, модель, звук и т.д.)
+    /**
+     * @brief Загружает ресурс (текстура, модель, звук и т.д.).
+     * @param resourcePath Путь к ресурсу.
+     */
     void loadResource(const std::string& resourcePath);
 
-    // Возвращает загруженный ресурс
+    /**
+     * @brief Возвращает загруженный ресурс.
+     * @tparam ResourceType Тип возвращаемого ресурса.
+     * @param resourceName Имя ресурса.
+     * @return Загруженный ресурс заданного типа.
+     */
     template <typename ResourceType>
     ResourceType getResource(const std::string& resourceName);
 
-    // Освобождает ресурсы
+    /**
+     * @brief Освобождает ресурсы.
+     */
     void unloadAllResources();
 };

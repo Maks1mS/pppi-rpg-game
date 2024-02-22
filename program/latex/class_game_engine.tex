@@ -1,0 +1,57 @@
+\hypertarget{class_game_engine}{}\doxysection{Класс Game\+Engine}
+\label{class_game_engine}\index{GameEngine@{GameEngine}}
+
+
+Класс \mbox{\hyperlink{class_game_engine}{Game\+Engine}} является основой для всей архитектуры игры.  
+
+
+
+
+{\ttfamily \#include $<$game\+\_\+engine.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_engine_af52f9b4cf1d9b2694eeb0aa2ea77de2f}\label{class_game_engine_af52f9b4cf1d9b2694eeb0aa2ea77de2f}} 
+void \mbox{\hyperlink{class_game_engine_af52f9b4cf1d9b2694eeb0aa2ea77de2f}{initialize}} ()
+\begin{DoxyCompactList}\small\item\em Инициализирует игровой движок и все его подсистемы. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_game_engine_ab01970da2c68fefbf48b98c59d5627ae}\label{class_game_engine_ab01970da2c68fefbf48b98c59d5627ae}} 
+void \mbox{\hyperlink{class_game_engine_ab01970da2c68fefbf48b98c59d5627ae}{run}} ()
+\begin{DoxyCompactList}\small\item\em Запускает основной игровой цикл. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_game_engine_aba20f4cd8d357c40ef763b17ab407918}\label{class_game_engine_aba20f4cd8d357c40ef763b17ab407918}} 
+void \mbox{\hyperlink{class_game_engine_aba20f4cd8d357c40ef763b17ab407918}{shutdown}} ()
+\begin{DoxyCompactList}\small\item\em Останавливает игру и освобождает ресурсы. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_game_engine_aeb8df057dde6e18da6d2dc3e468afc8b}{update}} (float delta\+Time)
+\begin{DoxyCompactList}\small\item\em Обновляет все подсистемы (физика, анимация, AI и т.\+д.). \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_game_engine_a267bf9164ba09e32b7a24ba4afb527d4}\label{class_game_engine_a267bf9164ba09e32b7a24ba4afb527d4}} 
+void \mbox{\hyperlink{class_game_engine_a267bf9164ba09e32b7a24ba4afb527d4}{render}} ()
+\begin{DoxyCompactList}\small\item\em Рендерит текущее состояние игры. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_game_engine}{Game\+Engine}} является основой для всей архитектуры игры. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_game_engine_aeb8df057dde6e18da6d2dc3e468afc8b}\label{class_game_engine_aeb8df057dde6e18da6d2dc3e468afc8b}} 
+\index{GameEngine@{GameEngine}!update@{update}}
+\index{update@{update}!GameEngine@{GameEngine}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Game\+Engine\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Обновляет все подсистемы (физика, анимация, AI и т.\+д.). 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em delta\+Time} & Время, прошедшее с предыдущего обновления, в секундах. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+game\+\_\+engine.\+h\end{DoxyCompactItemize}

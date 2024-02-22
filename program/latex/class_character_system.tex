@@ -1,0 +1,78 @@
+\hypertarget{class_character_system}{}\doxysection{Класс Character\+System}
+\label{class_character_system}\index{CharacterSystem@{CharacterSystem}}
+
+
+Класс \mbox{\hyperlink{class_character_system}{Character\+System}} управляет созданием и развитием персонажей.  
+
+
+
+
+{\ttfamily \#include $<$character\+\_\+system.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_character_system_a237aa4aa6669c002ddfeac51fed72e2b}{create\+Character}} ()
+\begin{DoxyCompactList}\small\item\em Создает нового персонажа. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_character_system_a9b5653796d4b58191b3686034046d1d9}{update}} (float delta\+Time)
+\begin{DoxyCompactList}\small\item\em Обновляет состояние и навыки персонажей. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_character_system_ac48c2ac0fda67171541e276cd93881b4}{upgrade\+Character}} (int character\+Id,)
+\begin{DoxyCompactList}\small\item\em Улучшает навык или характеристику персонажа. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_character_system}{Character\+System}} управляет созданием и развитием персонажей. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_character_system_a237aa4aa6669c002ddfeac51fed72e2b}\label{class_character_system_a237aa4aa6669c002ddfeac51fed72e2b}} 
+\index{CharacterSystem@{CharacterSystem}!createCharacter@{createCharacter}}
+\index{createCharacter@{createCharacter}!CharacterSystem@{CharacterSystem}}
+\doxysubsubsection{\texorpdfstring{createCharacter()}{createCharacter()}}
+{\footnotesize\ttfamily void Character\+System\+::create\+Character (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Создает нового персонажа. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em character\+Params} & Параметры создаваемого персонажа. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_character_system_a9b5653796d4b58191b3686034046d1d9}\label{class_character_system_a9b5653796d4b58191b3686034046d1d9}} 
+\index{CharacterSystem@{CharacterSystem}!update@{update}}
+\index{update@{update}!CharacterSystem@{CharacterSystem}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Character\+System\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Обновляет состояние и навыки персонажей. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em delta\+Time} & Время, прошедшее с предыдущего обновления, в секундах. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_character_system_ac48c2ac0fda67171541e276cd93881b4}\label{class_character_system_ac48c2ac0fda67171541e276cd93881b4}} 
+\index{CharacterSystem@{CharacterSystem}!upgradeCharacter@{upgradeCharacter}}
+\index{upgradeCharacter@{upgradeCharacter}!CharacterSystem@{CharacterSystem}}
+\doxysubsubsection{\texorpdfstring{upgradeCharacter()}{upgradeCharacter()}}
+{\footnotesize\ttfamily void Character\+System\+::upgrade\+Character (\begin{DoxyParamCaption}\item[{int}]{character\+Id }\end{DoxyParamCaption})}
+
+
+
+Улучшает навык или характеристику персонажа. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em character\+Id} & Идентификатор персонажа, которому будет выполнено улучшение. \\
+\hline
+{\em upgrade\+Params} & Параметры улучшения. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+character\+\_\+system.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,62 @@
+\hypertarget{class_achievements_system}{}\doxysection{Класс Achievements\+System}
+\label{class_achievements_system}\index{AchievementsSystem@{AchievementsSystem}}
+
+
+Класс \mbox{\hyperlink{class_achievements_system}{Achievements\+System}} управляет достижениями игрока и награждает их за выполнение определенных задач.  
+
+
+
+
+{\ttfamily \#include $<$achievements\+\_\+system.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_achievements_system_a48f359c15e1031f14968976d7ee6c3d2}{register\+Achievement}} ()
+\begin{DoxyCompactList}\small\item\em Регистрирует новое достижение в системе. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_achievements_system_a6f3b5078470715f1f18b6d5d3ab58dfb}{check\+And\+Unlock}} ()
+\begin{DoxyCompactList}\small\item\em Проверяет, выполнены ли условия достижения, и награждает игрока. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_achievements_system_a4072ea69a7bf18f87ebf71f207d58abc}\label{class_achievements_system_a4072ea69a7bf18f87ebf71f207d58abc}} 
+void \mbox{\hyperlink{class_achievements_system_a4072ea69a7bf18f87ebf71f207d58abc}{get\+Unlocked\+Achievements}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает список достигнутых игроком достижений. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_achievements_system}{Achievements\+System}} управляет достижениями игрока и награждает их за выполнение определенных задач. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_achievements_system_a6f3b5078470715f1f18b6d5d3ab58dfb}\label{class_achievements_system_a6f3b5078470715f1f18b6d5d3ab58dfb}} 
+\index{AchievementsSystem@{AchievementsSystem}!checkAndUnlock@{checkAndUnlock}}
+\index{checkAndUnlock@{checkAndUnlock}!AchievementsSystem@{AchievementsSystem}}
+\doxysubsubsection{\texorpdfstring{checkAndUnlock()}{checkAndUnlock()}}
+{\footnotesize\ttfamily void Achievements\+System\+::check\+And\+Unlock (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Проверяет, выполнены ли условия достижения, и награждает игрока. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em check\+Params} & Параметры для проверки условий достижения. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_achievements_system_a48f359c15e1031f14968976d7ee6c3d2}\label{class_achievements_system_a48f359c15e1031f14968976d7ee6c3d2}} 
+\index{AchievementsSystem@{AchievementsSystem}!registerAchievement@{registerAchievement}}
+\index{registerAchievement@{registerAchievement}!AchievementsSystem@{AchievementsSystem}}
+\doxysubsubsection{\texorpdfstring{registerAchievement()}{registerAchievement()}}
+{\footnotesize\ttfamily void Achievements\+System\+::register\+Achievement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Регистрирует новое достижение в системе. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em achievement\+Params} & Параметры достижения для регистрации. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+achievements\+\_\+system.\+h\end{DoxyCompactItemize}

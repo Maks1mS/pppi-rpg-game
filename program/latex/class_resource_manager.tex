@@ -1,0 +1,71 @@
+\hypertarget{class_resource_manager}{}\doxysection{Класс Resource\+Manager}
+\label{class_resource_manager}\index{ResourceManager@{ResourceManager}}
+
+
+Класс \mbox{\hyperlink{class_resource_manager}{Resource\+Manager}} управляет загрузкой и выгрузкой игровых ресурсов.  
+
+
+
+
+{\ttfamily \#include $<$resource\+\_\+manager.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_resource_manager_abda6ed5275971daf95188b364f697624}{load\+Resource}} (const std\+::string \&resource\+Path)
+\begin{DoxyCompactList}\small\item\em Загружает ресурс (текстура, модель, звук и т.\+д.). \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename Resource\+Type $>$ }\\Resource\+Type \mbox{\hyperlink{class_resource_manager_a6e19865e0c7f5db8ec2068802092fe9b}{get\+Resource}} (const std\+::string \&resource\+Name)
+\begin{DoxyCompactList}\small\item\em Возвращает загруженный ресурс. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_resource_manager_ac8e6c416a491f6fcc78ed682313feb4a}\label{class_resource_manager_ac8e6c416a491f6fcc78ed682313feb4a}} 
+void \mbox{\hyperlink{class_resource_manager_ac8e6c416a491f6fcc78ed682313feb4a}{unload\+All\+Resources}} ()
+\begin{DoxyCompactList}\small\item\em Освобождает ресурсы. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_resource_manager}{Resource\+Manager}} управляет загрузкой и выгрузкой игровых ресурсов. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_resource_manager_a6e19865e0c7f5db8ec2068802092fe9b}\label{class_resource_manager_a6e19865e0c7f5db8ec2068802092fe9b}} 
+\index{ResourceManager@{ResourceManager}!getResource@{getResource}}
+\index{getResource@{getResource}!ResourceManager@{ResourceManager}}
+\doxysubsubsection{\texorpdfstring{getResource()}{getResource()}}
+{\footnotesize\ttfamily template$<$typename Resource\+Type $>$ \\
+Resource\+Type Resource\+Manager\+::get\+Resource (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{resource\+Name }\end{DoxyParamCaption})}
+
+
+
+Возвращает загруженный ресурс. 
+
+
+\begin{DoxyTemplParams}{Параметры шаблона}
+{\em Resource\+Type} & Тип возвращаемого ресурса. \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Аргументы}
+{\em resource\+Name} & Имя ресурса. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Загруженный ресурс заданного типа. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_resource_manager_abda6ed5275971daf95188b364f697624}\label{class_resource_manager_abda6ed5275971daf95188b364f697624}} 
+\index{ResourceManager@{ResourceManager}!loadResource@{loadResource}}
+\index{loadResource@{loadResource}!ResourceManager@{ResourceManager}}
+\doxysubsubsection{\texorpdfstring{loadResource()}{loadResource()}}
+{\footnotesize\ttfamily void Resource\+Manager\+::load\+Resource (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{resource\+Path }\end{DoxyParamCaption})}
+
+
+
+Загружает ресурс (текстура, модель, звук и т.\+д.). 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em resource\+Path} & Путь к ресурсу. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+resource\+\_\+manager.\+h\end{DoxyCompactItemize}
