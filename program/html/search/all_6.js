@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['handleplayerjoin_48',['handlePlayerJoin',['../class_multiplayer_manager.html#ab79c879bd64db377585050b20ae4c77f',1,'MultiplayerManager']]],
-  ['handleplayerleave_49',['handlePlayerLeave',['../class_multiplayer_manager.html#a4284fd956b3636f15277f53c83ba712a',1,'MultiplayerManager']]]
+  ['handleplayerjoin_50',['handlePlayerJoin',['../class_multiplayer_manager.html#ab79c879bd64db377585050b20ae4c77f',1,'MultiplayerManager']]],
+  ['handleplayerleave_51',['handlePlayerLeave',['../class_multiplayer_manager.html#a4284fd956b3636f15277f53c83ba712a',1,'MultiplayerManager']]]
 ];

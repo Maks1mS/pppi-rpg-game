@@ -1,0 +1,78 @@
+\hypertarget{class_magic_system}{}\doxysection{Класс Magic\+System}
+\label{class_magic_system}\index{MagicSystem@{MagicSystem}}
+
+
+Класс \mbox{\hyperlink{class_magic_system}{Magic\+System}} управляет использованием магических способностей и заклинаний.  
+
+
+
+
+{\ttfamily \#include $<$magic\+\_\+system.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_magic_system_a5e1e1d919de2e3dbcf5d1360fcca1afc}{add\+Spell}} ()
+\begin{DoxyCompactList}\small\item\em Добавляет новое заклинание в арсенал. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_magic_system_a50b73878c35ab94e9656e305d3bf29da}{cast\+Spell}} (int spell\+Id,)
+\begin{DoxyCompactList}\small\item\em Использует заклинание. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_magic_system_adf398f041c02beda5f833e12f85e3a37}{update}} (float delta\+Time)
+\begin{DoxyCompactList}\small\item\em Обновляет состояние магии (например, восстановление маны). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс \mbox{\hyperlink{class_magic_system}{Magic\+System}} управляет использованием магических способностей и заклинаний. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_magic_system_a5e1e1d919de2e3dbcf5d1360fcca1afc}\label{class_magic_system_a5e1e1d919de2e3dbcf5d1360fcca1afc}} 
+\index{MagicSystem@{MagicSystem}!addSpell@{addSpell}}
+\index{addSpell@{addSpell}!MagicSystem@{MagicSystem}}
+\doxysubsubsection{\texorpdfstring{addSpell()}{addSpell()}}
+{\footnotesize\ttfamily void Magic\+System\+::add\+Spell (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Добавляет новое заклинание в арсенал. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em spell\+Params} & Параметры добавляемого заклинания. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_magic_system_a50b73878c35ab94e9656e305d3bf29da}\label{class_magic_system_a50b73878c35ab94e9656e305d3bf29da}} 
+\index{MagicSystem@{MagicSystem}!castSpell@{castSpell}}
+\index{castSpell@{castSpell}!MagicSystem@{MagicSystem}}
+\doxysubsubsection{\texorpdfstring{castSpell()}{castSpell()}}
+{\footnotesize\ttfamily void Magic\+System\+::cast\+Spell (\begin{DoxyParamCaption}\item[{int}]{spell\+Id }\end{DoxyParamCaption})}
+
+
+
+Использует заклинание. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em spell\+Id} & Идентификатор заклинания для использования. \\
+\hline
+{\em target} & Цель заклинания. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_magic_system_adf398f041c02beda5f833e12f85e3a37}\label{class_magic_system_adf398f041c02beda5f833e12f85e3a37}} 
+\index{MagicSystem@{MagicSystem}!update@{update}}
+\index{update@{update}!MagicSystem@{MagicSystem}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Magic\+System\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+Обновляет состояние магии (например, восстановление маны). 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em delta\+Time} & Время, прошедшее с предыдущего обновления, в секундах. \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+magic\+\_\+system.\+h\end{DoxyCompactItemize}
